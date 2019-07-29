@@ -3,7 +3,7 @@
 ### Circular Dependencies
 With Security Groups you can open ports for IP-Adresses, Subnets or other security groups. If your architecture has two security groups (think of APP and WEB-Tier), which are referencing each others, the CloudFormation Stack will fail.
 
-*This won't work, because neither of the Security Groups can be created without the other one:*
+*This won't work, because none of the Security Groups can be created without the other one:*
 ```
 AppTier:
   Type: AWS::EC2::SecurityGroup
