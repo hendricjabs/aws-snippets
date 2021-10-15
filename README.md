@@ -8,3 +8,7 @@ Helpful snippets for Amazon Web Services
 
 ## CloudFormation
 * [Security Groups - Avoid Circular Dependencies](cloudformation.md#security-groups)
+
+
+## Python
+* [Decode DynamoDB JSON](python-snippets.md##decode-dynamodb-json)
